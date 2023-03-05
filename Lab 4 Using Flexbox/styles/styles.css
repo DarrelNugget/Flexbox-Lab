@@ -1,0 +1,117 @@
+header {
+    font-size: 125%;
+}
+
+p {
+    padding: 3px;
+}
+
+.first-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    padding: 12px;
+
+    background-color: rgb(173, 216, 230);
+}
+
+.first-flex div{
+    width: 50%;
+    
+    background-color: rgb(128, 128, 128);
+}
+
+
+
+.second-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    padding: 12px;
+
+    background-color: rgb(173, 216, 230);
+}
+
+.second-flex div{
+    width: 50%;
+    
+    background-color: rgb(128, 128, 128);
+}
+
+.second-flex #secondA {
+    padding-right: 0px;
+}
+
+.second-flex #secondB {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.second-flex #secondC {
+    padding-left: 0px;
+}
+
+.third-flex {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    padding: 12px;
+
+    background-color: rgb(173, 216, 230);
+}
+
+.third-flex div{
+    
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+}
+
+.third-flex #thirdA{
+    width: 100%;
+}
+
+.third-flex #thirdB{
+    width: 50%;
+}
+.third-flex #thirdC{
+    width: 50%;
+}
+
+
+
+.fourth-flex-top {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    padding: 12px;
+    background-color: rgb(173, 216, 230);
+}
+
+.fourth-flex-top div{
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    width: 100%;
+}
+
+.fourth-flex-bottom {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 12px;
+    padding: 12px;
+    padding-top: 0px;
+    background-color: rgb(173, 216, 230);
+}
+
+
+
+.fourth-flex-bottom div{
+    background-color: rgb(128, 128, 128);
+    border: 2px solid black;
+    width: 100%;
+ 
+}
+
